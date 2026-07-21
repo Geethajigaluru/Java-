@@ -1,4 +1,3 @@
-/* 
 public class Hello{
     public static void main(String[] args){
         System.out.println("Hello, World!");
@@ -13,7 +12,6 @@ public class Hello{
     System.out.println("Result: "+ Result);
 }
 }
- 
 
 public class Hello{
     public static void main(String args[]){
@@ -22,8 +20,6 @@ public class Hello{
         System.out.println(a);
     }
 }
-
-*/
 
 public class Hello{
     public static void main(String args[]){
