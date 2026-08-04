@@ -64,7 +64,7 @@ public class Main{
     }
 }
     
-//Q5
+//Q5c
 class Employee{
     String name;
     int Salary;
