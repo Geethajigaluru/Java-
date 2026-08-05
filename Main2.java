@@ -95,3 +95,88 @@ public class Main2{
         
     }
 }
+
+//Q6
+class Square{
+    int side;
+}
+public class Main2{
+    public static void main(String[] args){
+        Square s1=new Square();
+        s1.side=5;
+        for(int i=1;i<=s1.side;i++){
+            for(int j=1;j<=s1.side;j++){
+                System.out.print("*");
+            }
+        System.out.println();
+        }
+    }
+}
+    
+//Q7
+class NumberPattern{
+    int rows;
+}
+public class Main2{
+    public static void main(String[] args){
+        NumberPattern r1=new NumberPattern();
+        r1.rows=5;
+        for(int i=1;i<=r1.rows;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(j);
+            }
+        System.out.println();
+        }
+    }
+}
+    
+//Q8
+class AlphabetPattern{
+    char letter;
+}
+public class Main2{
+    public static void main(String[] args){
+        AlphabetPattern l1=new AlphabetPattern();
+        l1.letter='A';
+        for(char i='A';i<='E';i++){
+            for(char j='A';j<=i;j++){
+                System.out.print(j);
+            }
+        System.out.println();
+        }
+}
+}
+
+//Q9
+class OddNumbers{
+    int limit;
+}
+public class Main2{
+    public static void main(String[] args){
+        OddNumbers odd=new OddNumbers();
+        odd.limit=15;
+        int i=1;
+        while(i<=odd.limit){
+            if(i%2!=0){
+                System.out.println(i);
+            }
+            i=i+1;
+        }
+    }
+}
+//Q10
+class ReverseNumberPattern{
+    int rows;
+}
+public class Main2{
+    public static void main(String[] args){
+        ReverseNumberPattern r1=new ReverseNumberPattern();
+        r1.rows=5;
+        for(int i=r1.rows;i>=1;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
